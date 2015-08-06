@@ -1,3 +1,4 @@
+//declaração de variável
 var app = require('./app')
 
 app.listen(app.locals.config.port, null, null, function () {
